@@ -4,6 +4,9 @@
 	color: #2a25bb;
   text-align: center;
 }
+p, li {
+  font-size: 20px;
+}
 h2 {
   font-family: cursive;
 }
@@ -16,12 +19,27 @@ body {
 .day {
   background-color:#b6d1dd;
 }
-body {
-  border: black dotted;
+img {
+  border: 5px #05045d solid;
+  position: relative; 
+}
+/*.image {
+  margin: auto;
+  width: fit-content;
+}*/
+.image p {
+  text-align: center;
+}
+img {
+  display: block;
+  margin: auto;
+}
+ body {
+  border: black solid;
   margin: 20px;
   padding: 20px;
 }
-img {
-  border: 5px brown dotted;
+.icon {
+  position:relative;
+  top: 20px;
 }
- 

@@ -23,6 +23,10 @@ img {
   border: 5px #05045d solid;
   position: relative; 
 }
+a:hover {
+  color: #fb6a09;
+  background-color: #89ece0;
+}
 /*.image {
   margin: auto;
   width: fit-content;
@@ -35,6 +39,7 @@ img {
   margin: auto;
 }
  body {
+  font-family: Cochin;
   border: black solid;
   margin: 20px;
   padding: 20px;

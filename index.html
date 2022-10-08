@@ -37,14 +37,24 @@
     </div>
     <div>
       <form action="/my-handling-form-page" method="post">
-        <label for="name">Name</label>
-        <input type="text" id="name" name="user_name" required>
-        <label for="mail">Email</label>
-        <input type="email" id="mail" name="user_email" required>
-        <label for="msg">Message</label>
-        <textarea type="text" id="msg" name="user_message">
-          </textarea>
-        <button>Send your message</button>
+        <ul>
+          <li>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="user_name" required />
+          </li>
+          <li>
+            <label for="mail">Email:</label>
+            <input type="email" id="mail" name="user_email" required />
+          </li>
+          <li>
+            <label for="msg">Message:</label>
+            <textarea type="text" id="msg" name="user_message">
+            </textarea>
+          </li>
+          <li>
+            <button>Send your message</button>
+          </li>
+        </ul>      
       </form>
     </div>
     <video controls width="500" src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Introduction_to_Cascading_Style_Sheets.webm">
